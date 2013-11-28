@@ -1,0 +1,14 @@
+{% include JB/setup %}
+
+{% assign posts_collate = site.posts %}
+{% for post in posts_collate  %}
+
+<div style="margin:1em 0 3em;">
+  <div class="page-header">
+      <h1>{{ post.title }} {% if post.tagline %} <small>{{ post.tagline }}</small>{% endif %}</h1>
+  </div>
+  {{ post.content }}
+  <hr>
+  {% include JB/comments %}
+</div>
+{% endfor %}  
