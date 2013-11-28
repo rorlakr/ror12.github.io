@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ROR Lab. 워크숍 개최
+title: ROR Lab. 워크숍
 ---
 {% include JB/setup %}
 
