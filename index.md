@@ -1,46 +1,20 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: ROR Lab. 워크숍 개최
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+ROR Lab.은 2011년 11월 12일 첫 오프라인 강좌를 시작하였습니다.
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+그동안 매격주마다 2시간씩 오프라인 강좌를 무료로 진행하여 왔으며, 이 모든 것은 자발적인 공유의 정신으로 운영되고 있습니다.
 
-## Update Author Attributes
+첫해 일년간은 지인의 도움으로 마포의 작은 오피스텔을 월 100만원의 임대료를 지불하면서 강의 장소를 사용해 왔습니다.
+그러나 격주마다 2시간씩 사용하는 용도의 강의실 임대료는 다소 무리한 상황으로 판단하여 더 이상의 사무실 임대를 하지 않기로 결정했습니다.
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+따라서 오프라인 강의 장소가 없어서 1-2달 정도는 온라인으로 강의를 진행하였습니다. 그러나 채종원님의 도움으로 강의실을 마련할 수 있어 회사 사무실 공간을 이용하였습니다. 1-2달 정도 진행했지만 사무실 공간도 여의치 않게 될 무렵, ROR Lab. 1교시 강의를 진행하고 있는 네이버의 정창훈님의 도움으로 네이버에서 처음 시작하는 개발자지원 프로그램의 지원으로 받게 되어 현재까지 토즈강남2호점에서 격주로 강의를 편안하게 진행하고 있습니다.
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+2013년 12월 3일 현재, 50회 강의를 진행할 예정이며, 그동안 매 강의시마다 강의 내용을 스크린캐스트로 제작하여 유투브에 공유해 놓은 상태이며 지금도 동일한 작업을 진행 중에 있습니다.
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
 
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
 
 

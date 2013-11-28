@@ -3,6 +3,7 @@ layout: post
 title: "'blog' 프로젝트 생성하기"
 description: ""
 category: ""
+comments : true
 tags: []
 ---
 {% include JB/setup %}
